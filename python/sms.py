@@ -6,6 +6,7 @@ class sms():
         if modelname.find("T1tttt") != -1: self.T1tttt()
         if modelname.find("T1bbbb") != -1: self.T1bbbb()
         if modelname.find("T1qqqq") != -1: self.T1qqqq()
+        if modelname.find("T2tt") != -1:   self.T2tt()
 
 
     def T1tttt(self):
